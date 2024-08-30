@@ -20,6 +20,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 nav ul {
@@ -66,7 +68,12 @@ input {
 .filtros input, .filtros select {
     padding: 0.5rem;
     font-size: 1rem;
+    flex-grow: 0.5; 
+    min-width: 100px;
+    width: 150px;
 }
+
+
 
 .productos {
     display: grid;
