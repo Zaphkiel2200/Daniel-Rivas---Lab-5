@@ -54,6 +54,7 @@ main {
 
 input {
     border-radius: 15px;
+    border-color: aquamarine;
 }
 
 .filtros {
