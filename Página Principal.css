@@ -73,7 +73,9 @@ input {
     width: 150px;
 }
 
-
+option {
+    border-radius: 15px;
+}
 
 .productos {
     display: grid;
