@@ -46,8 +46,8 @@ nav ul li a {
 }
 
 .banner img {
-    width: 15%;
-    height: 15%;
+    width: 25%;
+    height: 25%;
     border-radius: 35px;
     object-fit: cover;
     
@@ -68,6 +68,8 @@ input {
     display: flex;
     justify-content: space-between;
     margin-bottom: 2rem;
+    border-radius: 15px;
+    text-align: center;
 }
 
 .filtros input, .filtros select {
@@ -76,6 +78,8 @@ input {
     flex-grow: 0.5; 
     min-width: 100px;
     width: 150px;
+    border-radius: 15px;
+
 }
 
 option {
