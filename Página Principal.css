@@ -7,13 +7,18 @@ body {
 }
 
 body::before {
-    content: "";
+    content: "fondo";
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('');
+    background-image: url('extras/Fondo.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.25;
+    z-index: -1;
 }
 
 header {
